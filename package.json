@@ -1,5 +1,6 @@
 {
   "name": "followers-task",
+  "homepage": "https://favixx.github.io/followers-task/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
