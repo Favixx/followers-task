@@ -1,0 +1,10 @@
+.tweets_section {
+    margin-top: 50px;
+}
+
+.toolbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
