@@ -20,6 +20,7 @@
 }
 
 .filter_menu {
+    list-style: none;
     position: absolute;
     top: 165px;
     left: 75%;
