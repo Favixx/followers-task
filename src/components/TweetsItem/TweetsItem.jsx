@@ -8,7 +8,7 @@ const TweetsItem = ({ user, onClick, isLoading }) => {
 
     return (
         <li className={css.userCard} key={id}>
-            <img src={logo} className={css.logo} />
+            <img src={logo} className={css.logo} alt='GoIT Logo' />
             <img src={bubbles} className={css.bubbles} width="308" height="168" alt="speech-bubbles"></img>
             <div className={css.round}>
                 <div className={css.line}></div>

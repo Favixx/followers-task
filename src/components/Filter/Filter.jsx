@@ -24,6 +24,7 @@ const Filter = ({ value = 'Show all', onChange }) => {
                 aria-controls={isOpen ? 'filter-menu' : undefined}
                 aria-haspopup="true"
                 aria-expanded={isOpen ? 'true' : undefined}
+                aria-label='Filter'
                 onClick={handleClick}
                 className={css.filter_but}
             >

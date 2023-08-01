@@ -63,7 +63,7 @@ const Tweets = () => {
                 updateUser(userId, updatedUsers.find((user) => user.id === userId).followers),
                 setUsers(updatedUsers)
             ]);
-            setIsLoading(false) // засунь это в try после await
+            setIsLoading(false)
         } catch (error) {
             console.log("Помилка при оновленні користувача на сервері:", error);
         }

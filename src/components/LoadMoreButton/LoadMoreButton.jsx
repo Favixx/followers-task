@@ -7,6 +7,7 @@ const LoadMoreButton = ({ onClick, loading }) => {
             disabled={loading}
             className={css.loadMore}
             onClick={onClick}
+            aria-label='Click to load more'
         >
             {loading ? 'Loading...' : 'Load more'}
         </button>
