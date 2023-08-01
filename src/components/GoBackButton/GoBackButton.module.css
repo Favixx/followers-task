@@ -1,0 +1,29 @@
+.gobackbut {
+    align-items: center;
+    background: #ebd8ff;
+    border: 0;
+    border-radius: 10.3108px;
+    box-shadow: 0 3.43693px 3.43693px rgba(0, 0, 0, .25);
+    color: #373737;
+    cursor: pointer;
+    display: flex;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 21.94px;
+    margin: 0 36px;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    width: 196px;
+}
+
+.gobackbut:hover {
+    background-color: #5cd3a8;
+    font-family: inherit;
+}
+
+.gobackbut:focus {
+    background-color: #5cd3a8;
+    font-family: inherit;
+}
