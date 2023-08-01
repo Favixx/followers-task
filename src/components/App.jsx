@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Home } from '../pages/Home/Home'
-import { Layout } from './Layout/Layout'
 import Tweets from '../pages/Tweets/Tweets'
+import { Layout } from './Layout/Layout'
 
 export const App = () => {
   return (

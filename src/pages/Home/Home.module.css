@@ -1,0 +1,29 @@
+.home_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.hero {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hero_h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #4B2A99;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.hero_paragraph {
+    font-size: 30px;
+}
