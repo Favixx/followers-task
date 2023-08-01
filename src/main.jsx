@@ -4,7 +4,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/followers-task/'>
+  <BrowserRouter basename='/followers-task'>
     <App />
   </BrowserRouter>,
 )
